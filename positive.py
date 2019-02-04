@@ -1,4 +1,4 @@
-num = float(input("Enter a number: "))
+num = double(input())
 if num > 0:
    print("Positive number")
 elif num == 0:
