@@ -1,5 +1,6 @@
+
+n=int(input("enter the value:"))
 sum=0
-n=int(input("enter the number="))
 while(n>=0):
     sum += n
     n -= 1
