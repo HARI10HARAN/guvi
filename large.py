@@ -1,9 +1,12 @@
-a= input("enter the num1=")
-b = input("enter the num2=")
-c = input("enter the num3=")
-if (a > b):
-   print(a)
-elif (b > c):
-   print(b)
+num1 =int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+ 
+if (num1 > num2) and (num1 > num3):
+   largest = num1
+elif (num2 > num3):
+   largest = num2
 else:
-   print(c)
+   largest = num3
+ 
+print(largest)
